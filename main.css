@@ -50,10 +50,11 @@ h1, h2 {
 }
 
 img {
-  max-width: 100%;
+  width: 60%;
   height: auto;
+  display: block;
+  margin: 1em auto; /* 上下に余白をつけて中央揃え */
   border-radius: 8px;
-  margin: 1em 0;
 }
 
 ul, ol {
