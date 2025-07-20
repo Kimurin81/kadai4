@@ -1,0 +1,81 @@
+/* ベース設定 */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 0;
+}
+
+/* ヘッダー */
+header {
+  background-color: #007ACC;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+header nav {
+  margin-top: 0.5em;
+}
+
+header nav a {
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* メインコンテンツ */
+main {
+  padding: 1em 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+h1, h2 {
+  color: #007ACC;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1em 0;
+}
+
+ul, ol {
+  padding-left: 1.5em;
+}
+
+/* フッター */
+footer {
+  background-color: #eee;
+  color: #666;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 600px) {
+  body {
+    font-size: 90%;
+  }
+
+  header nav a {
+    display: block;
+    margin: 0.5em 0;
+  }
+
+  main {
+    padding: 1em;
+  }
+}
